@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733331 67.733331"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="fluent-reader.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1864"
+     inkscape:window-height="1010"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="2.7929688"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="56"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g23"
+     transform="matrix(0.96951421,0,0,0.97213173,1.1721557,1.0096457)">
+    <path
+       id="path10"
+       style="fill:#aaccff;fill-rule:evenodd;stroke-width:0.277431"
+       d="M 64.844053,33.397392 A 30.840372,30.85594 0 0 1 34.003681,64.253332 30.840372,30.85594 0 0 1 3.1633091,33.397392 30.840372,30.85594 0 0 1 34.003681,2.5414524 30.840372,30.85594 0 0 1 64.844053,33.397392 Z" />
+    <path
+       id="path10-3"
+       style="fill:#5599ff;fill-rule:evenodd;stroke-width:0.22504"
+       d="M 55.565257,38.357634 A 25.310024,24.73867 0 0 1 30.255233,63.096304 25.310024,24.73867 0 0 1 4.9452095,38.357634 25.310024,24.73867 0 0 1 30.255233,13.618963 25.310024,24.73867 0 0 1 55.565257,38.357634 Z" />
+    <path
+       id="path10-3-6"
+       style="fill:#2a7fff;fill-rule:evenodd;stroke-width:0.167351"
+       d="M 46.33171,44.008155 A 19.326314,17.916581 0 0 1 27.005395,61.924736 19.326314,17.916581 0 0 1 7.6790798,44.008155 19.326314,17.916581 0 0 1 27.005395,26.091575 19.326314,17.916581 0 0 1 46.33171,44.008155 Z" />
+    <g
+       aria-label="F"
+       transform="matrix(0.8226616,0,0,0.5934711,7.6060008,13.913986)"
+       id="text54"
+       style="font-style:normal;font-weight:normal;font-size:54.1231px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.35309">
+      <path
+         d="m 32.10675,37.446826 q 0,0.502118 -0.05286,0.8721 -0.05285,0.369983 -0.184991,0.607828 -0.132136,0.211419 -0.317127,0.317128 -0.158564,0.105709 -0.343555,0.105709 H 18.681684 v 11.62801 h 11.839428 q 0.184991,0 0.343555,0.105709 0.184991,0.07928 0.317127,0.2907 0.132137,0.211418 0.184992,0.581401 0.05285,0.343554 0.05285,0.898528 0,0.502118 -0.05285,0.8721 -0.05286,0.343555 -0.184992,0.581401 -0.132136,0.211418 -0.317127,0.343555 -0.158564,0.105709 -0.343555,0.105709 H 18.681684 v 14.244312 q 0,0.184991 -0.105709,0.369982 -0.105709,0.158564 -0.369982,0.264273 -0.264273,0.07928 -0.68711,0.132136 -0.422837,0.07928 -1.109946,0.07928 -0.634256,0 -1.08352,-0.07928 -0.449264,-0.05285 -0.713537,-0.132136 -0.264272,-0.105709 -0.369982,-0.264273 -0.105709,-0.184991 -0.105709,-0.369982 v -31.6599 q 0,-1.030664 0.528546,-1.427073 0.554973,-0.422837 1.162801,-0.422837 h 15.380686 q 0.184991,0 0.343555,0.105709 0.184991,0.105709 0.317127,0.343555 0.132137,0.237845 0.184991,0.634255 0.05286,0.369982 0.05286,0.872101 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#ffffff;stroke-width:1.35309"
+         id="path74" />
+    </g>
+  </g>
+</svg>

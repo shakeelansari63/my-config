@@ -1,0 +1,14 @@
+Just Extract all *hidden* folder to your home repository
+
+.icons
+.var
+.local
+
+Only works with flatpak version for GIMP.
+
+Backup Existing Config which is at ~/.config/GIMP/2.10
+cd ~/.config/GIMP
+mv 2.10 2.10.bkp
+
+Copy the New Configs from .var/app/org.gimp.GIMP/config/GIMP/2.10 to ~/.config/GIMP/2.10
+cp .var/app/org.gimp.GIMP/config/GIMP/2.10 ~/.config/GIMP/

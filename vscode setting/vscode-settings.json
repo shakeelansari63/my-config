@@ -1,0 +1,8 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+}

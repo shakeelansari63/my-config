@@ -1,0 +1,2 @@
+place the folders in ~/.local/share/* 
+GTK theme goes in ~/.themes
