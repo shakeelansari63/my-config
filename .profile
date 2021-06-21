@@ -20,6 +20,9 @@ NODEPATH=${DEV_MOUNT_POINT}/Applications/nodejs/bin
 # Anaconda Path
 CONDAPATH=${DEV_MOUNT_POINT}/Applications/anaconda3/condabin
 
+# Browser Variable
+BROWSER=brave
+
 
 ########## Export Custom Variables #############################
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
@@ -51,9 +54,8 @@ then
 else
 	PYTHONPATH=$PYTHONPATH:$FREAK_PYTHONPATH
 fi
-export PATH PYTHONPATH GOROOT GOPATH
 
-
+export PATH PYTHONPATH GOROOT GOPATH BROWSER
 
 
 ########## Softlinks for Home Folders ##########################
