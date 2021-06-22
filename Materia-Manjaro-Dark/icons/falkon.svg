@@ -5,9 +5,31 @@
    id="svg52"
    width="48"
    height="48"
+   sodipodi:docname="falkon.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview36"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="13.75"
+     inkscape:cx="23.963636"
+     inkscape:cy="24.036364"
+     inkscape:window-width="1854"
+     inkscape:window-height="1012"
+     inkscape:window-x="66"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52" />
   <defs
      id="defs56">
     <linearGradient
@@ -139,7 +161,7 @@
      xlink:href="#k" />
   <g
      id="g3281"
-     transform="matrix(0.97994023,0,0,0.97157874,1.0812192,1.1136857)">
+     transform="matrix(1.0087446,0,0,0.98256484,-0.19945474,0.83085538)">
     <ellipse
        cx="24.268999"
        cy="24"
