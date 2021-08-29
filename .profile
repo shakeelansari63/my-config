@@ -3,42 +3,21 @@ export DEV_MOUNT_POINT=/home/freak/dev
 HOME_DIR=/home/freak
 
 ########## Create Custom PATH Variables ########################
-FLUTTER_PATH=${DEV_MOUNT_POINT}/Applications/flutter/bin
-ANDROID_STUDIO_PATH=${DEV_MOUNT_POINT}/Applications/android-studio/bin
 MONGODB_PATH=${DEV_MOUNT_POINT}/Applications/mongodb
-
-# Custom Code for Jupyter
-JUPY_PATH=${DEV_MOUNT_POINT}/Applications/JupyterNB
-
-# Go Environment
-GOROOT=${DEV_MOUNT_POINT}/Applications/go/goroot
-GOPATH=${DEV_MOUNT_POINT}/Applications/go/gopath
 
 # Node JS Path
 NODEPATH=${DEV_MOUNT_POINT}/Applications/nodejs/bin
 
-# Anaconda Path
-CONDAPATH=${DEV_MOUNT_POINT}/Applications/anaconda3/condabin
-
 # Browser Variable
 BROWSER=brave
 
-
 ########## Export Custom Variables #############################
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
-export ANDROID_HOME=${DEV_MOUNT_POINT}/Applications/android/
 
 ########## Append Custom PATH Variables to Freak PATH ##########
-FREAK_PATH=$JUPY_PATH\
-:$MONGODB_PATH\
-:$GOROOT/bin:$GOPATH/bin\
+FREAK_PATH=$MONGODB_PATH\
 :$NODEPATH\
-:$CONDAPATH\
-:$FLUTTER_PATH\
-:$ANDROID_STUDIO_PATH\
 
-
-FREAK_PYTHONPATH=''
 
 ########## Do Not Change This ##################################
 ########## Update System PATH Variable #########################
@@ -47,12 +26,6 @@ then
 	PATH=$FREAK_PATH
 else
 	PATH=$PATH:$FREAK_PATH
-fi
-if [ "$PYTHONPATH" = "" ]
-then
-	PYTHONPATH=$FREAK_PYTHONPATH
-else
-	PYTHONPATH=$PYTHONPATH:$FREAK_PYTHONPATH
 fi
 
 export PATH PYTHONPATH GOROOT GOPATH BROWSER
