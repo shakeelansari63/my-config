@@ -399,7 +399,7 @@ bash_prompt() {
 	## BASH PROMT                                                             ##
 	## Generate promt and remove format from the rest                         ##
 	############################################################################
-	export PS1="$TITLEBAR\n${PROMT_USER}${SEPARATOR_1}${PROMT_HOST}${SEPARATOR_2}${PROMT_PWD}${SEPARATOR_3}${PROMT_INPUT}\n"
+	export PS1="${PROMT_USER}${SEPARATOR_1}${PROMT_HOST}${SEPARATOR_2}${PROMT_PWD}${SEPARATOR_3}${PROMT_INPUT}\n"
 
 	
 
@@ -429,16 +429,20 @@ unset bash_prompt
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/freak/dev/Applications/conda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/freak/Dev/Apps/conda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/freak/dev/Applications/conda/etc/profile.d/conda.sh" ]; then
-        . "/home/freak/dev/Applications/conda/etc/profile.d/conda.sh"
+    if [ -f "/home/freak/Dev/Apps/conda/etc/profile.d/conda.sh" ]; then
+        . "/home/freak/Dev/Apps/conda/etc/profile.d/conda.sh"
     else
-        export PATH="/home/freak/dev/Applications/conda/bin:$PATH"
+        export PATH="/home/freak/Dev/Apps/conda/bin:$PATH"
     fi
 fi
 unset __conda_setup
+
+# Deactivate Conda Environment by Default
+conda deactivate
+
 # <<< conda initialize <<<
 
