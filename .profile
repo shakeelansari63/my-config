@@ -11,9 +11,6 @@ NODEPATH=${DEV_MOUNT_POINT}/Apps/nodejs/bin
 # Conda Path
 CONDAPATH=${DEV_MOUNT_POINT}/Apps/conda/condabin
 
-# Mono CS for CSharp Compiling and Runtime
-MONOCSPATH=${DEV_MOUNT_POINT}/Apps/mono-cs/bin
-
 # Lite XL Path
 LITEXL=${DEV_MOUNT_POINT}/Apps/lite-xl/bin
 
@@ -25,7 +22,6 @@ FREAK_PATH=$MONGODB_PATH\
 :$NODEPATH\
 :$CONDAPATH\
 :$LITEXL\
-:$MONOCSPATH\
 
 
 ########## Do Not Change This ##################################
