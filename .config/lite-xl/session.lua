@@ -1,0 +1,1 @@
+return {recents={[1]="/home/freak/Dev/Home/Projects/AlphaOneUI",[2]="/home/freak/Dev/Home/Projects/AlphaOneApi"}, window={[1]=1864,[2]=1010,[3]=56,[4]=70,["n"]=4}, window_mode="maximized", previous_find={}, previous_replace={}}

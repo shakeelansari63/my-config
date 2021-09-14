@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 48 48"
+   width="48"
+   height="48"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="lite-xl-2.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.0929182"
+     inkscape:cx="37.721663"
+     inkscape:cy="17.156208"
+     inkscape:window-width="1864"
+     inkscape:window-height="1010"
+     inkscape:window-x="56"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="_clipPath_oQOpAlaS5aQPNgwhNjsJr8QwgeI7VsJ1">
+      <rect
+         width="48"
+         height="48"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="bg"
+     style="display:inline">
+    <ellipse
+       style="display:inline;isolation:isolate;fill:#2e2e32;fill-opacity:1;stroke-width:0.878256"
+       id="path5697"
+       cx="23.863071"
+       cy="23.82556"
+       rx="21.138931"
+       ry="21.017523" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="icon"
+     style="display:inline">
+    <g
+       clip-path="url(#_clipPath_oQOpAlaS5aQPNgwhNjsJr8QwgeI7VsJ1)"
+       id="g19"
+       style="isolation:isolate">
+      <rect
+         width="48"
+         height="48"
+         style="fill:#000000"
+         fill-opacity="0"
+         id="rect7"
+         x="0"
+         y="0" />
+      <path
+         d="M 19,27 V 15 c 0,-1.104 -0.896,-2 -2,-2 h -4 v 17 c 0,2.76 2.24,5 5,5 h 17 v -4 c 0,-1.104 -0.896,-2 -2,-2 H 21 c -1.104,0 -2,-0.896 -2,-2 z"
+         fill="#e1e1e6"
+         id="path11" />
+      <path
+         d="m 24,22 v -6 l 5,3 3,5 h -6 c -1.104,0 -2,-0.896 -2,-2 z"
+         fill="#93ddfa"
+         id="path13" />
+      <path
+         d="M 35,13 H 21 l 14,14 z"
+         fill="#ffa94d"
+         id="path15" />
+      <path
+         d="m 32,16 h -8 l 8,8 z"
+         fill="#f7c95c"
+         id="path17" />
+    </g>
+  </g>
+</svg>

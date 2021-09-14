@@ -14,6 +14,9 @@ CONDAPATH=${DEV_MOUNT_POINT}/Apps/conda/condabin
 # Lite XL Path
 LITEXL=${DEV_MOUNT_POINT}/Apps/lite-xl/bin
 
+# DotNet Path
+DOTNETPATH=${DEV_MOUNT_POINT}/Apps/dotnet
+
 ########## Export Custom Variables #############################
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
 
@@ -22,6 +25,7 @@ FREAK_PATH=$MONGODB_PATH\
 :$NODEPATH\
 :$CONDAPATH\
 :$LITEXL\
+:$DOTNETPATH\
 
 
 ########## Do Not Change This ##################################
