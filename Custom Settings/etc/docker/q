@@ -1,0 +1,23 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (]8;;file://Freak-PC/usr/lib/systemd/system/docker.service/usr/lib/systemd/system/docker.service]8;;; enabled; vendor preset: disabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2021-09-20 10:00:03 IST; 6s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: ]8;;https://docs.docker.comhttps://docs.docker.com]8;;
+   Main PID: 16161 (dockerd)
+      Tasks: 27 (limit: 9362)
+     Memory: 177.6M
+        CPU: 641ms
+     CGroup: /system.slice/docker.service
+             ├─16161 /usr/bin/dockerd -H fd://
+             └─16184 containerd --config /var/run/docker/containerd/containerd.toml --log-level info
+
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.183613718+05:30" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.195241016+05:30" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.233987803+05:30" level=info msg="Loading containers: start."
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.519628514+05:30" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.584246956+05:30" level=info msg="Loading containers: done."
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.655234569+05:30" level=warning msg="Not using native diff for overlay2, this may cause degraded performance for building images: kernel has CONFIG_OVERLAY_FS_REDIRECT_DIR enabled" storage-driver=overlay2
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.655905760+05:30" level=info msg="Docker daemon" commit=75249d88bc graphdriver(s)=overlay2 version=20.10.8
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.658609252+05:30" level=info msg="Daemon has completed initialization"
+Sep 20 10:00:03 Freak-PC systemd[1]: Started Docker Application Container Engine.
+Sep 20 10:00:03 Freak-PC dockerd[16161]: time="2021-09-20T10:00:03.689444013+05:30" level=info msg="API listen on /run/docker.sock"

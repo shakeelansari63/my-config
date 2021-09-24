@@ -3,8 +3,6 @@ export DEV_MOUNT_POINT=/home/freak/Dev
 HOME_DIR=/home/freak
 
 ########## Create Custom PATH Variables ########################
-MONGODB_PATH=${DEV_MOUNT_POINT}/Apps/mongodb
-
 # Node JS Path
 NODEPATH=${DEV_MOUNT_POINT}/Apps/nodejs/bin
 
@@ -14,18 +12,26 @@ CONDAPATH=${DEV_MOUNT_POINT}/Apps/conda/condabin
 # Lite XL Path
 LITEXL=${DEV_MOUNT_POINT}/Apps/lite-xl/bin
 
+# Custom Scripts 
+CUSTOMPATH=${DEV_MOUNT_POINT}/Apps/Scripts
+
 # DotNet Path
 DOTNETPATH=${DEV_MOUNT_POINT}/Apps/dotnet
+
+# DotNet Tools Path
+export DOTNET_TOOLS_PATH=${DEV_MOUNT_POINT}/Apps/dotnet/Tools
+export DOTNET_ROOT=$DOTNETPATH
 
 ########## Export Custom Variables #############################
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
 
 ########## Append Custom PATH Variables to Freak PATH ##########
-FREAK_PATH=$MONGODB_PATH\
-:$NODEPATH\
+FREAK_PATH=$NODEPATH\
 :$CONDAPATH\
 :$LITEXL\
 :$DOTNETPATH\
+:$DOTNET_TOOLS_PATH\
+:$CUSTOMPATH\
 
 
 ########## Do Not Change This ##################################
